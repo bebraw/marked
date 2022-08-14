@@ -1,5 +1,5 @@
 {
-  "name": "marked",
+  "name": "@bebraw/marked",
   "description": "A markdown parser built for speed",
   "author": "Christopher Jeffrey",
   "version": "4.0.18",
