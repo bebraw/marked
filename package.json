@@ -10,7 +10,9 @@
   "bin": {
     "marked": "bin/marked.js"
   },
-  "man": "./man/marked.1",
+  "man": [
+    "./man/marked.1"
+  ],
   "files": [
     "bin/",
     "lib/",
@@ -25,7 +27,10 @@
     },
     "./package.json": "./package.json"
   },
-  "repository": "git://github.com/markedjs/marked.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markedjs/marked.git"
+  },
   "homepage": "https://marked.js.org",
   "bugs": {
     "url": "http://github.com/markedjs/marked/issues"
@@ -93,5 +98,11 @@
   },
   "engines": {
     "node": ">= 12"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "man": "man",
+    "test": "test"
   }
 }
